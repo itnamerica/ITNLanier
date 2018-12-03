@@ -1,5 +1,5 @@
 <div class="homepage" ui-view>
-  
+
 <div class="hp-carousel">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
@@ -94,20 +94,20 @@
       </div><!--feature description-->
     </div><!--col-md-4-->
   </div><!--features-->
-  
+
   <div class="row post-features">
     <div class="col-md-4 each">Affordable fares <hr align="center" width="35%"></div>
     <div class="col-md-4 each">No tipping <hr align="center" width="35%"></div>
     <div class="col-md-4 each">Cash-free transactions <hr align="center" width="35%"></div>
   </div>
-  
+
 </div><!--JUMBO FEATURES-->
 
 
 <div class="jumbotron section mission">
   <div class="container">
     <h1 style="font-size: 50px">Mission</h1>
-    <h4>To provide a community-based, and community supported, economically viable and consumer-oriented, quality transportation service for seniors and visually impaired adults.</h4>
+    <h4>The Mission of ITN<em>{{affiliate}}</em> is to offer safe, affordable rides to Seniors and the Visually Impaired to get them where they want to go, when they want to go, within the greater Hall County Area.</h4>
   </div>
 </div><!--MISSION-->
 
@@ -129,14 +129,14 @@
         Riders
       </div>
     </div><!--ROW-->
-    
+
   </div><!--CONTAINER-->
 </div><!-- PROGRESS-->
 
 <!-- <div class="jumbotron section rider-stories">
   <div class="container section-content">
     <h1>Rider Stories</h1>
-      <div class="col-lg-5 rider-stories-text">            
+      <div class="col-lg-5 rider-stories-text">
         <h4>Ellie wants to know how much she should tip the driver, who says "No thank you. You owe me nothing." <br>
         Initially Ellie tries to argue because she just tipped the "girl" who did her hair, but the driver reassures her that no tip is required.</h4>
         <h5>-Written by Nancy McCormick <br>
@@ -183,16 +183,16 @@
 
 
 <script type="text/javascript">
-  
+
 
   $(document).ready(function() {
-    
+
     new WOW().init();
-    
+
     $('.carousel').carousel({
       interval: 3500
     })
-    
+
     var firstTime = true;
     $(window).scroll(function() {
        var hT = $('#progress').offset().top,
@@ -216,13 +216,13 @@
          }
        }
     });
-    
+
     $('#yt-iframe').mouseleave(function(){
       console.log('mouseleave iframe');
       $('.carousel').carousel('pause');
     })
-      
+
   });
-  
+
 
 </script>
