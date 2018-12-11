@@ -505,7 +505,11 @@ nav .dropdown-menu li.divider{
   background: #fc6d6d;
   color:white;
 }
-.donate .donate-intro p{  font-size:30px; }
+.donate .donate-intro p{  font-size:25px; }
+.donate .donate-intro ul{
+  font-size:25px;
+  list-style-type: none
+}
 .donate .nav-tabs {
   margin-left:5%;
   margin-right:5%;
