@@ -847,7 +847,7 @@ $scope.checkRequiredFields = function(formType){
         }).then(function(res){
             $scope.loading = false;
             $scope.showForm = false;
-            $scope.serverMessage = 'Your form was submitted successfully. You should hear back from us soon.';
+            $scope.serverMessage = 'Your form was submitted successfully. You should hear back from us soon. Please Follow Up with a Call to the ITN Lanier office to check on the receipt of your payment, and to verify that we have received your application successfully';
         }).catch(function(err){
           $scope.loading = false;
           $scope.serverMessage = 'There was an error submitting your form. Please contact us, or consider submitting your form by paper instead.';
